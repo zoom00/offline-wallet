@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="52mm"
+   viewBox="0 0 210 52"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="coinbin.svg"
+   inkscape:export-filename="/home/dev/go/github.com/zoom00/offline-wallet/images/coinbin.png"
+   inkscape:export-xdpi="25.4"
+   inkscape:export-ydpi="25.4">
+  <title
+     id="title6125">Zoomio.io offline wallet logo1</title>
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient6119"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6117" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6119"
+       id="linearGradient6121"
+       x1="192.19645"
+       y1="118.57617"
+       x2="920.69022"
+       y2="118.57617"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-575.45557"
+     inkscape:cy="361.05494"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g3788"
+     showgrid="false"
+     inkscape:window-width="2284"
+     inkscape:window-height="1004"
+     inkscape:window-x="1040"
+     inkscape:window-y="28"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Zoomio.io offline wallet logo1</dc:title>
+        <dc:date>2020-03-09</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>zoom00</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:identifier>https://github.com/zoom00/offline-wallet/blob/master/images/coinbin.svg</dc:identifier>
+        <dc:source>https://github.com/zoom00/offline-wallet/blob/master/images/coinbin.svg</dc:source>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nd/4.0/" />
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>zoom00</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>zoom00</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:relation>https://github.com/zoom00/offline-wallet/blob/master/images/coinbin.gif</dc:relation>
+        <dc:language>English</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>logo coinbin</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>zoomio.io offline wallet logo</dc:description>
+        <dc:contributor>
+          <cc:Agent>
+            <dc:title>zoom00</dc:title>
+          </cc:Agent>
+        </dc:contributor>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nd/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="orange background"
+     style="display:none">
+    <ellipse
+       style="fill:#b3b3b3;stroke-width:0.26458332"
+       id="path3766"
+       cx="106.74047"
+       cy="25.466072"
+       rx="96.761894"
+       ry="23.8125" />
+    <path
+       style="fill:#ffcc00;stroke:#000000;stroke-width:0.733926;stroke-opacity:1"
+       d="M 84.357143,48.41184 C 11.277428,43.932668 -14.027205,23.630627 38.163841,11.350709 56.732677,6.9816868 78.392038,4.95938 106.6164,4.95938 c 41.0404,0 72.1087,4.6542061 89.03589,13.338078 4.69617,2.409195 7.38937,5.602675 7.38937,8.761969 0,6.852928 -15.84922,13.763319 -40.82142,17.798476 -20.79388,3.359997 -55.31769,4.935782 -77.863097,3.553937 z"
+       id="path3770"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="zoomio.io text"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3733"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:13.06000042px;word-spacing:0px;fill:#b3b3b3;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,-39.309524,-9.0714286)"><flowRegion
+         id="flowRegion3735"
+         style="font-size:96px;letter-spacing:13.06000042px;word-spacing:0px;fill:#b3b3b3"><rect
+           id="rect3737"
+           width="765.71429"
+           height="182.85715"
+           x="162.85715"
+           y="39.392574"
+           style="font-size:96px;letter-spacing:13.06000042px;word-spacing:0px;fill:#b3b3b3" /></flowRegion><flowPara
+         id="flowPara3739"
+         style="font-size:154.66667175px;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff">zoomio.io</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3741"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
+         id="flowRegion3743"><rect
+           id="rect3745"
+           width="662.85712"
+           height="74.285713"
+           x="-234.28572"
+           y="-6.321712" /></flowRegion><flowPara
+         id="flowPara3747" /></flowRoot>  </g>
+  <g
+     style="display:inline"
+     inkscape:label="zoomio.io text Kopie"
+     id="g3788"
+     inkscape:groupmode="layer">
+    <flowRoot
+       transform="matrix(0.26458333,0,0,0.26458333,-39.309524,-9.0714286)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:13.06000042px;word-spacing:0px;fill:#323232;fill-opacity:0.62749999;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="flowRoot3778"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;letter-spacing:13.06000042px;word-spacing:0px;fill:#323232;fill-opacity:0.62749999;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowRegion3774"><rect
+           style="font-size:96px;letter-spacing:13.06000042px;word-spacing:0px;fill:#323232;fill-opacity:0.62749999;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           y="39.392574"
+           x="162.85715"
+           height="182.85715"
+           width="765.71429"
+           id="rect3772" /></flowRegion><flowPara
+         style="font-size:154.66667175px;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#323232;fill-opacity:0.62749999;stroke:#000000;stroke-width:1.00157475;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="flowPara3776">zoomio.io</flowPara></flowRoot>    <flowRoot
+       transform="scale(0.26458333)"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3786"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3782"><rect
+           y="-6.321712"
+           x="-234.28572"
+           height="74.285713"
+           width="662.85712"
+           id="rect3780" /></flowRegion><flowPara
+         id="flowPara3784" /></flowRoot>  </g>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-245)" />
+</svg>
