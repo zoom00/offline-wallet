@@ -33,4 +33,4 @@ Zoomio.io supports a number of key features such as:
 - Bech32 address support
 - Fee calculator - https://zoomio.io/#fees
 
-Donate to 3K1oFZMks41C7qDYBsr72SYjapLqDuSYuN to see more development!
+Donate to 32Be68As9WqtD5SZHu29jJGaUgL9k3FnpC to see more development!
