@@ -3,7 +3,7 @@ coinbin
 
 A Open Source Browser Based Bitcoin Wallet. Version 1.5 beta by OutCast3k
 
-Live version available at http://zoomio.io/ or http://4zpinp6gdkjfplhk.onion
+Live version available at http://zoomio.io/ or http://hjlsfngsham57o5j.onion
 
 Github URL: https://github.com/zoom00/offline-wallet/
 Forked from Github URL: https://github.com/OutCast3k/coinbin/

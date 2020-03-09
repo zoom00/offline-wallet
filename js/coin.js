@@ -27,7 +27,7 @@
 	coinjs.developer = '3K1oFZMks41C7qDYBsr72SYjapLqDuSYuN'; //bitcoin
 
 	/* bit(zoomio.io) api vars */
-	coinjs.hostname	= ((document.location.hostname.split(".")[(document.location.hostname.split(".")).length-1]) == 'onion') ? '4zpinp6gdkjfplhk.onion' : 'zoomio.io';
+	coinjs.hostname	= ((document.location.hostname.split(".")[(document.location.hostname.split(".")).length-1]) == 'onion') ? 'hjlsfngsham57o5j.onion' : 'zoomio.io';
 	coinjs.host = ('https:'==document.location.protocol?'https://':'http://')+coinjs.hostname+'/api/';
 	coinjs.uid = '1';
 	coinjs.key = '12345678901234567890123456789012';
