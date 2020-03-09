@@ -4,7 +4,12 @@
 
  http://github.com/OutCast3k/coinjs or http://coinb.in/coinjs
 */
+/*
+ Coinjs 0.01 beta-zoomio by zoomio{at}zoomio.io
+ A bitcoin framework.
 
+ http://github.com/zoom00/coinjs or http://zoomio.io/coinjs
+*/
 (function () {
 
 	var coinjs = window.coinjs = function () { };
@@ -21,8 +26,8 @@
 	/* other vars */
 	coinjs.developer = '3K1oFZMks41C7qDYBsr72SYjapLqDuSYuN'; //bitcoin
 
-	/* bit(coinb.in) api vars */
-	coinjs.hostname	= ((document.location.hostname.split(".")[(document.location.hostname.split(".")).length-1]) == 'onion') ? '4zpinp6gdkjfplhk.onion' : 'coinb.in';
+	/* bit(zoomio.io) api vars */
+	coinjs.hostname	= ((document.location.hostname.split(".")[(document.location.hostname.split(".")).length-1]) == 'onion') ? 'hjlsfngsham57o5j.onion' : 'zoomio.io';
 	coinjs.host = ('https:'==document.location.protocol?'https://':'http://')+coinjs.hostname+'/api/';
 	coinjs.uid = '1';
 	coinjs.key = '12345678901234567890123456789012';
@@ -52,7 +57,7 @@
 		x += window.history.length;
 		x += coinjs.random(64);
 		x += navigator.userAgent;
-		x += 'coinb.in';
+		x += 'zoomio.io';
 		x += (Crypto.util.randomBytes(64)).join("");
 		x += x.length;
 		var dateObj = new Date();
@@ -1216,7 +1221,7 @@
 		/* generate a segwit transaction hash to sign from a transaction input */
 		r.transactionHashSegWitV0 = function(index, sigHashType){
 			/* 
-			   Notice: coinb.in by default, deals with segwit transactions in a non-standard way.
+			   Notice: zoomio.io by default, deals with segwit transactions in a non-standard way.
 			   Segwit transactions require that input values are included in the transaction hash.
 			   To save wasting resources and potentially slowing down this service, we include the amount with the 
 			   redeem script to generate the transaction hash and remove it after its signed.

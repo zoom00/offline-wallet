@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 	/* open wallet code */
 
-	var explorer_tx = "https://coinb.in/tx/"
-	var explorer_addr = "https://coinb.in/addr/"
-	var explorer_block = "https://coinb.in/block/"
+	var explorer_tx = "https://zoomio.io/tx/"
+	var explorer_addr = "https://zoomio.io/addr/"
+	var explorer_block = "https://zoomio.io/block/"
 
 	var wallet_timer = false;
 
@@ -198,7 +198,7 @@ $(document).ready(function() {
 
 				tx2.broadcast(function(data){
 					if($(data).find("result").text()=="1"){
-						$("#walletSendConfirmStatus").removeClass('hidden').addClass('alert-success').html('txid: <a href="https://coinb.in/tx/'+$(data).find("txid").text()+'" target="_blank">'+$(data).find("txid").text()+'</a>');
+						$("#walletSendConfirmStatus").removeClass('hidden').addClass('alert-success').html('txid: <a href="https://zoomio.io/tx/'+$(data).find("txid").text()+'" target="_blank">'+$(data).find("txid").text()+'</a>');
 					} else {
 						$("#walletSendConfirmStatus").removeClass('hidden').addClass('alert-danger').html(unescape($(data).find("response").text()).replace(/\+/g,' '));
 						$("#walletSendFailTransaction").removeClass('hidden');
@@ -1116,7 +1116,7 @@ $(document).ready(function() {
 		
 		$.ajax ({
 			type: "POST",
-			url: "https://coinb.in/api/",
+			url: "https://zoomio.io/api/",
 			data: 'uid='+coinjs.uid+'&key='+coinjs.key+'&setmodule=carboncoin&request=listunspent&address='+redeem.addr,
 			dataType: "xml",
 			error: function() {
@@ -1288,7 +1288,7 @@ $(document).ready(function() {
                         success: function(data) {
 				$("#rawTransactionStatus").html(unescape($(data).find("response").text()).replace(/\+/g,' ')).removeClass('hidden');
 				if($(data).find("result").text()==1){
-					$("#rawTransactionStatus").addClass('alert-success').removeClass('alert-danger').removeClass("hidden").html(' TXID: ' + $(data).find("txid").text() + '<br> <a href="https://coinb.in/tx/' + $(data).find("txid").text() + '" target="_blank">View on Blockchain</a>');
+					$("#rawTransactionStatus").addClass('alert-success').removeClass('alert-danger').removeClass("hidden").html(' TXID: ' + $(data).find("txid").text() + '<br> <a href="https://zoomio.io/tx/' + $(data).find("txid").text() + '" target="_blank">View on Blockchain</a>');
 				} else {
 					$("#rawTransactionStatus").addClass('alert-danger').removeClass('alert-success').prepend('<span class="glyphicon glyphicon-exclamation-sign"></span> ');
 				}
@@ -1892,7 +1892,7 @@ $(document).ready(function() {
 		// deal with broadcasting settings
 		if(o[5]=="false"){
 			$("#coinjs_broadcast, #rawTransaction, #rawSubmitBtn, #openBtn").attr('disabled',true);
-			$("#coinjs_broadcast").val("coinb.in");			
+			$("#coinjs_broadcast").val("zoomio.io");			
 		} else {
 			$("#coinjs_broadcast").val(o[5]);
 			$("#coinjs_broadcast, #rawTransaction, #rawSubmitBtn, #openBtn").attr('disabled',false);
@@ -1901,7 +1901,7 @@ $(document).ready(function() {
 		// deal with unspent output settings
 		if(o[6]=="false"){
 			$("#coinjs_utxo, #redeemFrom, #redeemFromBtn, #openBtn, .qrcodeScanner").attr('disabled',true);			
-			$("#coinjs_utxo").val("coinb.in");
+			$("#coinjs_utxo").val("zoomio.io");
 		} else {
 			$("#coinjs_utxo").val(o[6]);
 			$("#coinjs_utxo, #redeemFrom, #redeemFromBtn, #openBtn, .qrcodeScanner").attr('disabled',false);
@@ -2185,16 +2185,16 @@ $(document).ready(function() {
 		$("#feeStatsReload").attr('disabled',true);
 		$.ajax ({
 			type: "GET",
-			url: "https://coinb.in/api/?uid=1&key=12345678901234567890123456789012&setmodule=fees&request=stats",
+			url: "https://zoomio.io/api/?uid=1&key=12345678901234567890123456789012&setmodule=fees&request=stats",
 			dataType: "xml",
 			error: function(data) {
 			},
 			success: function(data) {
-				$("#fees .recommended .blockHeight").html('<a href="https://coinb.in/height/'+$(data).find("height").text()+'" target="_blank">'+$(data).find("height").text()+'</a>');
+				$("#fees .recommended .blockHeight").html('<a href="https://zoomio.io/height/'+$(data).find("height").text()+'" target="_blank">'+$(data).find("height").text()+'</a>');
 				$("#fees .recommended .blockHash").html($(data).find("block").text());
 				$("#fees .recommended .blockTime").html($(data).find("timestamp").text());
 				$("#fees .recommended .blockDateTime").html(unescape($(data).find("datetime").text()).replace(/\+/g,' '));
-				$("#fees .recommended .txId").html('<a href="https://coinb.in/tx/'+$(data).find("txid").text()+'" target="_blank">'+$(data).find("txid").text()+'</a>');
+				$("#fees .recommended .txId").html('<a href="https://zoomio.io/tx/'+$(data).find("txid").text()+'" target="_blank">'+$(data).find("txid").text()+'</a>');
 				$("#fees .recommended .txSize").html($(data).find("txsize").text());
 				$("#fees .recommended .txFee").html($(data).find("txfee").text());
 				$("#fees .feeSatByte").html($(data).find("satbyte").text());
